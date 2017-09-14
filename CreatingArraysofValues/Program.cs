@@ -6,6 +6,8 @@ namespace CreatingArraysofValues
     {
         public static void Main(string[] args)
         {
+            
+
             // array: bucket that contains others buckets, grouping of data
             // square brackets for arrays!
 
@@ -25,9 +27,13 @@ namespace CreatingArraysofValues
             numbers[4] = 23;
             // individual elements of the array will be set to a value
             // index access operator: square brackets above
-            numbers[5] = 42;
+            //numbers[5] = 42;
             // The variable is only meant to hold 5 items, this doesn't work
 
+            Console.WriteLine(numbers.Length);
+                // Find out how many #s are in the array
+
+            /*
 
             // Shortcut
 
@@ -39,6 +45,9 @@ namespace CreatingArraysofValues
             // retrieve value placed into element of the array
             Console.ReadLine();
 
+            */
+
+            /*
 
             // Array to Hold Names
             string[] names = new string[] { "Eddie", "Alex", "Michael", "David Lee" };
@@ -49,6 +58,39 @@ namespace CreatingArraysofValues
                 Console.WriteLine(name);
             }
             Console.ReadLine();
+
+            */
+
+            /*
+
+            string zig = "You can get what you want out of life" + 
+                "if you help enough other people get what they want.";
+			// indentation shows the association with the line above it
+
+			// char stores a single character
+			char[] charArray = zig.ToCharArray();
+            Array.Reverse(charArray);
+            // each element in the array will be reversed (1st to last)
+
+            foreach (char zigChar in charArray)
+                Console.Write(zigChar);
+            // no need for curly braces because it's one line
+
+            Console.ReadLine();
+
+
+            */
+
+
+            // To Declare Array
+                // Define the data type and add opening/closing square brackets
+                // Declare the size of the array, or give it the actual items
+            // Use square bracket to access parts of the array
+                // To assign or retrieve a value
+            // Arrays are always 0 BASED
+                // Outside the boundry (# of elements) will cause an acception
+
+
         }
     }
 }
